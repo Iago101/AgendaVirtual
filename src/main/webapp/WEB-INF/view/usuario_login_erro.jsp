@@ -11,13 +11,15 @@
 <header>
 	<nav>
 	    <ul class="menu">
-	        <li class="borda_right">
-	            <a href = "/AgendaVirtual/Login">Login</a>
+	        <li onclick="location.href='/AgendaVirtual/Login';" style="cursor: pointer;" >
+	            <a >Agenda Virtual</a>
 	        </li>
-	    </ul>
+    	</ul>
 	</nav>
 </header>
-<br /><br /><br /><br /><br /><br /><br />
-<h1>Credenciais Inválidas</h1>
+<h1 class="error-page">Credenciais inváldas, tente novamente</h1> <br>
+<div style="text-align:center">
+	<input  class = "botao" type="button" value="Login" onclick="location.href='/AgendaVirtual/Login';" />
+</div>
 </body>
 </html>
