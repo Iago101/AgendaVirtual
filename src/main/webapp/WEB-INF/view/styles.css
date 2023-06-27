@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body{
+	font-family: "Times New Roman";
+	width: 100%;
+	background-color: #fffebf;
+	margin:0;
+	height:100vh;
+}
+
+header {
+    top: 0;
+    width: 100vw;
+}
+
+.logout{
+	float:right;
+	margin-right:30px; 
+	margin-top:20px; 
+	color: #FF4433;
+	cursor: pointer;
+}
+
+.function{
+	float:left;
+	margin-left:30px; 	
+	margin-right:30px; 
+	margin-top:20px; 
+	color: white;
+	cursor: pointer;
+}
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #005e19;
+    top: 0;
+    font-family: "Georgia";
+    font-size: 45px;
+    height:100px;
+}
+
+h1{
+	text-align: center;
+}
+  
+.menu li {
+    float: left;
+    margin-top:10px;
+}
+
+.menu li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    color:white;
+    text-decoration: none;
+ 
+}
+
+.advisor-text{
+	font-family:"Helvetica";
+	font-weight: bold;
+	font-size:20px;
+	margin-top:20px;
+}
+
+fieldset{
+	background-color: white;
+	font-family:"Helvetica";
+	margin: 10vh auto;
+	width: 30%;
+	height:400px;
+	text-align: center;
+	border:2px solid green;
+	vertical-align:middle;
+}
+
+span{
+	display: inline-block;
+    width: 130px;
+    font-size:25px;
+    text-align: left;
+  	vertical-align: bottom;
+	font-weight: bold;
+}
+
+.text-input{
+	margin-top:0;
+	height:30px;
+  	border:none;
+	border-bottom: 2px solid green;
+	background-color : #c2ffa6;
+}
+
+.span_left{
+	width: 150px;
+}
+
+.botao{
+	padding: 10px 24px;
+    border: 2px solid #020024;
+    font-size: 20px;
+    border-radius: 5px;
+	font-weight: bold;
+	background-color: #002d7a;
+	font-family: "Helvetica";
+	color:white;
+}
+
+.error-page{
+	font-family: "Helvetica";
+    font-size: 40px;
+    margin-top:15vh;
+	
+}
+
+
+.tabela{
+	margin-top: 5%;
+}
+
+.botao_tabela {
+	padding: 5px 12px;
+    border: 2px solid #020024;
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background-color: #DCDCDC;
+    font-family: "Times New Roman";
+}
+
+.botao_tabela:hover, .botao:hover {
+	background-color: #73abff;
+	color: black;
+	cursor: pointer;
+}
+
+table, tr, td, th {
+	background-color:green;
+	font-family:"Helvetica";
+	border: 2px solid #020024; ;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+}
+
+td, th {
+	background-color:white;
+	padding: 10px;
+	white-space: nowrap;
+	text-align: left;
+}
+
+th{
+	background-color:#4dd672;
+}
